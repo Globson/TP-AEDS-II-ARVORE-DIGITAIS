@@ -1,8 +1,5 @@
-all: main.c
-	gcc main.c -o EXEC
-
-clang: main.c
-	clang main.c -o EXEC
+all: main.c Sources/Patricia.c Sources/Lista_Encadeada.c
+	gcc main.c -o EXEC Sources/Patricia.c Sources/Lista_Encadeada.c
 
 clear: main.c
 	rm EXEC
