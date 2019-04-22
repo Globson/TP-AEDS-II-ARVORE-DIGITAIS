@@ -5,35 +5,18 @@
 
 
 
-O trabalho apresenta um tipo de aplicação com arvores digitais.
+O trabalho apresenta um método de indexação de palavras e pesquisa em arquivos de textos com base em aplicações com arvores digitais.
 
 ## Instalação
 
 **OS X & Linux**
 
-Voce ira precisar do CLang(LLVM) para compilar o codigo
-
-* Ubuntu
-```
-sudo apt-get install clang
-```
-* Arch
-```
-su
-pacman -Sy clang
-```
-Para mais informações consulte o [site](https://clang.llvm.org/get_started.html)
-
 De um clone no repositorio
 ```
-git clone https://github.com/Globson/Tp-do-Caixeiro-Viajante-Assimetrico
+git clone https://github.com/Globson/TP-AEDS-II-ARVORE-DIGITAIS.git
 
 ```
 Compile ele
-```
-
-make clang
-./EXEC_CLANG
 ```
 
 Compilar pelo GCC
