@@ -13,16 +13,15 @@ O trabalho apresenta um método de indexação de palavras e pesquisa em arquivo
 
 De um clone no repositorio
 ```
-git clone https://github.com/Globson/TP-AEDS-II-ARVORE-DIGITAIS.git
+$ git clone https://github.com/Globson/TP-AEDS-II-ARVORE-DIGITAIS.git
 
-```
-Compile ele
 ```
 
 Compilar pelo GCC
 ```
-make
-make run
+$ make
+$ make run
+
 ```
 
 **Windows**
