@@ -14,20 +14,21 @@ O trabalho apresenta um método de indexação de palavras e pesquisa em arquivo
 De um clone no repositorio
 ```
 $ git clone https://github.com/Globson/TP-AEDS-II-ARVORE-DIGITAIS.git
-
 ```
 
 Compilar pelo GCC
 ```
 $ make
 $ make run
-
 ```
 
 **Windows**
 
-Abra o projeto em alguma IDE de sua preferencia,como o CodeBlocks ou Clion
-
+Tenha o compilador GCC devidamente instalado e configurado no seu sistema operacional. Em seguida abra o cmd e digite:
+```
+gcc main.c -o EXEC Sources/INDICE_INVERTIDO.c Sources/LEITURA.c Sources/PATRICIA.c Sources/TST.c Sources/TF_IDF.c -lm
+```
+E em seguida execute o arquivo EXEC.exe criado.
 
 ## Licença
 
