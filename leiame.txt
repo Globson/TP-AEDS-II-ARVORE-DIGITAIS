@@ -1,0 +1,42 @@
+*******************************************************************Aplicação com Árvores Digitais**********************************************************************
+*																				      *
+* Indexação de palavras dada uma coleção de documentos.                                                                                                               *
+* Mais detalhes na documentação do programa sobre o objetivo do trabalho e a abordagem adotada na implementação.                                                      *
+*																				      *
+* Compilador utilizado: GCC GNU Compiler															      *
+* Editor de texto utilizado no desenvolvimento: Atom														      *
+* Sistemas Operacionais utilizados no desenvolvimento: Computador 1 - Windows 10 Home Single Language / Computador 2 - (distro linux)				      *
+* Computador 1: 4GB de memória RAM;																      *
+*	  	500GB de HD;																	      *
+*	  	Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz													      *
+* Computador 2: 																		      *
+*	  																			      *
+*																				      *
+* Instalação do GCC para compilar arquivos pelo CMD do Windows:													      *
+*    # Com o GCC já baixado:																	      *
+*        1) Acessar "Sistema" em Painel de Controle;														      *
+*        2) Clicar na opção à esquerda: "Configurações avançadas do sistema";											      *
+*        3) Clicar na opção no canto inferior direito: "Variáveis de Ambiente";											      *
+*        4) Caso a variável de ambiente "PATH" não esteja criada, criar essa nova variável;									      *
+*        5) Adicionar à essa variável o caminho do executável do compilador GCC (normalmente encontra-se na pasta "bin"). Exemplo: C:\Program Files (x86)\GCC\bin;    *
+*        6) Salvar as modificações e abrir o terminal no diretório que consta o(s) arquivo(s) a ser(em) compilado(s).						      *
+*																				      *
+* No Linux o GCC já vem pré instalado.																      *
+*																				      *
+* Comando do GCC para compilar os arquivos do programa:														      *
+*    # No Windows:																		      *
+*        gcc INDICE_INVERTIDO.h INDICE_INVERTIDO.c TF_IDF.h TF_IDF.c PATRICIA.h PATRICIA.c LEITURA.h LEITURA.c TST.h TST.c main.c -o main			      *
+*	 main																			      *
+*    # No Linux:																		      *
+*	 -> Sem makefile:																	      *
+*	     gcc INDICE_INVERTIDO.h INDICE_INVERTIDO.c TF_IDF.h TF_IDF.c PATRICIA.h PATRICIA.c LEITURA.h LEITURA.c TST.h TST.c main.c -o main			      *
+*	     ./main																		      *
+*	 -> Com makefile:																	      *
+*	     (Comandos do makefile)																      *
+*	(outros comandos do makefile)																      *
+*																				      *
+* Desenvolvedores do programa:																	      *
+*    # Josué Nunes Campos.																	      *
+*    # Mateus Coelho Santos.																	      *
+*    # Samuel Pedro Campos Sena.																      *
+***********************************************************************************************************************************************************************

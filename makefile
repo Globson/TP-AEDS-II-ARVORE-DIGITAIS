@@ -1,8 +1,8 @@
-all: main.c Sources/Patricia.c Sources/Lista_Encadeada.c
-	gcc main.c -o EXEC Sources/Patricia.c Sources/Lista_Encadeada.c
+all: main.c INDICE_INVERTIDO.c LEITURA.c PATRICIA.c TST.c TF_IDF.c
+	gcc main.c -o EXEC INDICE_INVERTIDO.c LEITURA.c PATRICIA.c TST.c TF_IDF.c -lm
 
-clear: main.c
-	rm EXEC
-
-run: main.c
+run: EXEC
 	./EXEC
+
+clear: EXEC
+	rm EXEC
