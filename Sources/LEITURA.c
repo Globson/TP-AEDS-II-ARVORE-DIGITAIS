@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include "LEITURA.h"//Incluíndo o cabeçalho do TAD
+#include "../Headers/LEITURA.h"//Incluíndo o cabeçalho do TAD
 
 void FFVazia(TipoFila *Fila){//Faz uma fila vazia
   Fila->Frente = (TipoFilPoint) malloc(sizeof(TipoCelulaFila));//Criando a célula cabeça da fila

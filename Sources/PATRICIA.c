@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "PATRICIA.h"//Incluíndo o cabeçalho do TAD
+#include "../Headers/PATRICIA.h"//Incluíndo o cabeçalho do TAD
 
 void InicializaPat(TipoArvore *t){//Inicializa o ponteiro da árvore
   *t = NULL;//Faz o ponteiro receber NULL

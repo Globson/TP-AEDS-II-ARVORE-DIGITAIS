@@ -5,7 +5,7 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "INDICE_INVERTIDO.h"//Incluíndo o cabeçalho do TAD
+#include "../Headers/INDICE_INVERTIDO.h"//Incluíndo o cabeçalho do TAD
 
 void FLVazia(TipoLista *Lista){//Faz uma lista vazia
   Lista -> Primeiro = (TipoCelPoint) malloc(sizeof(TipoCelula));//Criando a célula cabeça da lista

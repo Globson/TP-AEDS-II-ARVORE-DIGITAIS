@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "TST.h"//Incluíndo o Cabeçalho do TAD
+#include "../Headers/TST.h"//Incluíndo o Cabeçalho do TAD
 
 void Inicializa(TipoApontador *Raiz){//Inicializa o ponteiro da árvore
   *Raiz = NULL;//Faz o ponteiro receber NULL

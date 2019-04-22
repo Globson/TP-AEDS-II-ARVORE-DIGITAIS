@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "TF_IDF.h"//Incluíndo o cabeçalho do TAD
+#include "../Headers/TF_IDF.h"//Incluíndo o cabeçalho do TAD
 
 void InicializaNdoc(int *N){//Inicializando o número de documentos na coleção
   *N = 0;//Inicializando o número de documentos

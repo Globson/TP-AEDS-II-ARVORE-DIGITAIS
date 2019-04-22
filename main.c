@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "LEITURA.h"//Incluíndo o TAD que contém as funções necessárias
+#include "Headers/LEITURA.h"//Incluíndo o TAD que contém as funções necessárias
 
 //Programa principal
 int main(){

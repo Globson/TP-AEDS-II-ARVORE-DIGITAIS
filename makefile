@@ -1,5 +1,5 @@
-all: main.c INDICE_INVERTIDO.c LEITURA.c PATRICIA.c TST.c TF_IDF.c
-	gcc main.c -o EXEC INDICE_INVERTIDO.c LEITURA.c PATRICIA.c TST.c TF_IDF.c -lm
+all: main.c Sources/INDICE_INVERTIDO.c Sources/LEITURA.c Sources/PATRICIA.c Sources/TST.c Sources/TF_IDF.c
+	gcc main.c -o EXEC Sources/INDICE_INVERTIDO.c Sources/LEITURA.c Sources/PATRICIA.c Sources/TST.c Sources/TF_IDF.c -lm
 
 run: EXEC
 	./EXEC
